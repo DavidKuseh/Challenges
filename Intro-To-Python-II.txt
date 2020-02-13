@@ -1,0 +1,38 @@
+Philosphers table solution
+
+- All chopsticks are initially dirty
+- When a philosopher wants to use a pair of chopsticks he must send a request to his immediate neighbor for a second chopstick if he has only one
+- When a philosopher with a chopstick receives a request message they keep their chopstick if it is clean, but clean it and pass it on if it is dirty
+- After a philosopher eats all their forks become dirty. If there was a previous request for one of the forks, the philosopher cleans and sends the fork over
+
+
+Rock, Paper, Scissors
+
+Variables
+1. score - dictionary
+2. wins - integer
+3. ties - integer
+4. losses - integer
+5. welcome_message - string
+6. historical_data_message - string
+7. quit_message - string
+8. win_message - string
+9. loss_message - string
+10. tie_message - string
+11. score["wins"] - dictionary
+12. score["losses"] - dictionary
+13. score["ties"] - dictionary
+14. choice_options - dictionary
+15. computer_choice - integer
+16. user_choice - nonetype
+
+Procedures
+
+- start_game
+1. User picks either rock, paper or scissors represented by integers
+
+- compare_choices
+1. User's choice is compared to that of computer. A tie, a loss or win is returned
+
+- quit_game
+1. User's win, tie and loss record is stored in a text file

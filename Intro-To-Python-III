@@ -1,0 +1,13 @@
+Composition Example
+
+Parent Class - Department
+Child Class - Course
+
+Aggregation Example
+
+A student class and a school class. If a school closes down the student still exists
+
+
+
+
+
