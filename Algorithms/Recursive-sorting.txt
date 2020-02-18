@@ -1,0 +1,14 @@
+2. What would be the base case(s) we’d have to consider for implementing this functio
+
+arr[l] == x or arr[r] == x
+
+3. How should our recursive solution converge on our base case(s)?
+
+By comparing the element we're searching for to the immediate elements to the right and left of immediate
+
+4.   39  51  7  14  3  86
+   39  51  7      14  3  86
+   39  51    7    14  3    86
+   39  51    7    3   14   86
+   
+
