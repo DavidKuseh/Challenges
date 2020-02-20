@@ -1,0 +1,5 @@
+1. i. Additional memory overhead due to functions being recalled
+  ii. Using recursion with cache still limits the max input
+
+2. We can use the bottom up approach. This approach never makes a recursive call; it instead uses iteration to sum up the partial results and calculate the number.
+ 
